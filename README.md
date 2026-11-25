@@ -14,7 +14,7 @@ Feito com React, TypeScript, Tailwind CSS e Vite. Sem banco de dados, login ou b
 - SEO, Open Graph (`public/og-image.jpg`) e favicon com o logotipo
 
 ## Como trocar a foto
-Envie a foto profissional quadrada (~600×600) como `public/cilene.jpg`. Enquanto ela não existir, aparece o monograma "CT".
+A foto fica em `public/cilene.jpg` (quadrada, 640×640). Para trocar, substitua esse arquivo.
 
 ## Publicação
 Cada push na branch `main` gera o site e publica no GitHub Pages (`.github/workflows/deploy.yml`).
