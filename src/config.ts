@@ -7,7 +7,7 @@ export const asset = (path: string) => `${base}${path}`;
 
 // To show the professional photo, add the file public/cilene.jpg (square, ~600×600).
 // Until then, an elegant monogram is shown in its place.
-export const PHOTO_SRC = asset("cilene.jpg");
+export const PHOTO_SRC = asset("cilene-2.jpg");
 export const LOGO_SRC = asset("logo.jpg");
 export const VCARD_SRC = asset("cilene-telles.vcf");
 
