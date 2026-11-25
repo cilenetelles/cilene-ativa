@@ -2,6 +2,7 @@ import { useState } from "react";
 import { LOGO_SRC, PHOTO_SRC } from "../config";
 import type { Dict, Lang } from "../i18n";
 import LanguageToggle from "./LanguageToggle";
+import QrImage from "./QrImage";
 
 type Props = { t: Dict; lang: Lang; onLangChange: (l: Lang) => void };
 
@@ -64,6 +65,13 @@ export default function Header({ t, lang, onLangChange }: Props) {
           </svg>
           {t.location}
         </p>
+
+        <figure className="mt-6 flex flex-col items-center rounded-2xl bg-white p-3 pb-2.5 shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
+          <QrImage size={132} alt={t.qrAlt} className="block h-[132px] w-[132px]" />
+          <figcaption className="mt-2 text-[11px] font-semibold uppercase tracking-[0.12em] text-primary">
+            {t.scanCaption}
+          </figcaption>
+        </figure>
       </div>
     </header>
   );

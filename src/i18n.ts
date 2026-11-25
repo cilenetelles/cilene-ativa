@@ -44,6 +44,8 @@ const en = {
     shareText: "Cilene Telles — Head of Product & Innovation, Grupo Ativa Brasil",
     footerTagline: "Innovation · Manufacturing · Global Partnerships",
     opensNewTab: "(opens in a new tab)",
+    scanCaption: "Scan to open this card",
+    qrAlt: "QR Code that opens this digital business card",
 };
 
 export type Dict = typeof en;
@@ -92,6 +94,8 @@ const pt: Dict = {
     shareText: "Cilene Telles — Diretora de Produto e Inovação, Grupo Ativa Brasil",
     footerTagline: "Inovação · Manufatura · Parcerias Globais",
     opensNewTab: "(abre em nova aba)",
+    scanCaption: "Escaneie e acesse",
+    qrAlt: "QR Code que abre este cartão de visita digital",
 };
 
 export const translations: Record<Lang, Dict> = { en, pt };
