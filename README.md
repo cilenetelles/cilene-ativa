@@ -1,3 +1,5 @@
+<p align="center"><a href="https://cilenetelles.github.io/cilene-ativa/"><img src="public/og-image.jpg" alt="Cilene Telles — Head of Product & Innovation, Grupo Ativa Brasil" width="100%"></a></p>
+
 # Cilene Telles — Digital Business Card
 
 Cartão de visita digital (página única, bilíngue EN | PT) de Cilene Telles, Head of Product & Innovation do Grupo Ativa Brasil.
